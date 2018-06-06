@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo');
+
+body {
+    background-color: #a0efff;
+}
+
+h3 {
+    font-family: 'Arvo', serif;
+    font-size: 40px;
+    text-align: center;
+    /* text-decoration: underline; */
+    color: #003489;
+}
+
+.Warning {
+    color: red;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    width: 400px;
+    height: 20px;
+    border: 2px;
+    border-style: solid;
+    background-color:#a0efff;
+    border-color: red;
+    position: relative;
+    bottom: 15px;
+    left: 34%;
+}
+
+#board {
+    background-color: #e5e2c3;
+    width: 700px;
+    height: 90%;
+    left: 23%;
+    position: relative;
+    display: inline-block;
+}
+
+.segment01 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.segment02 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #fff;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+}
+
+.segment21 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #545c99;
+    display: inline-block;
+    position: relative;
+}
+
+.segment22 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #545c99;
+    display: inline-block;
+    position: relative;
+}
+
+.segment11 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #995454;
+    display: inline-block;
+    position: relative;
+}
+
+.segment12 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #995454;
+    display: inline-block;
+    position: relative;
+}
+
+.segment31 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #997e54;
+    display: inline-block;
+    position: relative;
+}
+
+.segment32 {
+    width: 100px;
+    height: 100px;
+    border: 10px;
+    border-radius: 100px;
+    background-color: #997e54;
+    display: inline-block;
+    position: relative;
+}
+
+.segment01:hover {
+    background-color: #ed9e9e;
+}
+
+.segment02:hover {
+    background-color: #8ca6d1;
+}
+
+.ProfileRed {
+    width: 10%;
+    height: 250px;
+    color: #995454;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    border: 2px;
+    border-style: solid;
+    background-color:#a0efff;
+    border-color: #995454;
+    position: relative;
+    left: 65px;
+    bottom: 500px;
+}
+
+.ProfileBlue {
+    width: 10%;
+    height: 250px;
+    color: #545c99;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    border: 2px;
+    border-style: solid;
+    background-color:#a0efff;
+    border-color: #545c99;
+    position: relative;
+    left: 1110px;
+    bottom: 758px;
+}
+
+.newgame {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    width: 16%;
+    height: 20px;
+    background-color: #a0efff;
+    color: #997e54;
+    position: relative;
+    left: 550px;
+    bottom: 1208px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.tiegame {
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    width: 16%;
+    height: 20px;
+    background-color: #a0efff;
+    color: #997e54;
+    position: relative;
+    left: 550px;
+    bottom: 1205px;
+    border: 2px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.Victory {
+    color: #997e54;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    width: 38%;
+    height: 40px;
+    border: 4px;
+    border-style: solid;
+    background-color:#fff;
+    border-color: #997e54;
+    position: relative;
+    bottom: 500px;
+    left: 30.5%;
+}
+
+.Tie {
+    color: #997e54;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    width: 38%;
+    height: 40px;
+    border: 4px;
+    border-style: solid;
+    background-color:#fff;
+    border-color: #997e54;
+    position: relative;
+    bottom: 1100px;
+    left: 30.5%;
+}
